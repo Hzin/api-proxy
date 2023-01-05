@@ -5,6 +5,7 @@
   ### Passo a passo
     1. Iniciar o docker na sua máquina
     2. Entrar na pasta laradock. Ex: cd laradock
+    3. Renomear o arquivo ".env copy" para ".env"
     3. Rodar o comando: docker-compose up -d nginx postgres
     4. Após isso a api estará rodando na porta 3334, caso precise mudar essa porta
       entre no arquivo \api-proxy\laradock\.env
